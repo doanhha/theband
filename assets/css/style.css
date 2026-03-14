@@ -42,8 +42,9 @@ body{
     color: #fff;
     text-decoration: none;
     line-height: 60px;
-    padding: 0 40px;
+    padding: 0 10px;
     display: inline-block;
+    
 }
 #nav >  li:hover > a{
     color: #000;
@@ -53,8 +54,9 @@ body{
 #nav .subnav {
     display: none;
     position: absolute;
-    background-color: #fff;
+    background-color: #ccc;
     list-style: none;
+    
 }
 #nav li:hover .subnav{
     display: block;
