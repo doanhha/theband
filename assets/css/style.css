@@ -31,7 +31,7 @@ body{
 }
 #nav li {
     display: inline-block;
-    position: relative;
+    position: relative !important;
 }
 #nav > li > a{
     color: #fff;
@@ -56,7 +56,14 @@ body{
     position: absolute;
     background-color: #ccc;
     list-style: none;
-    
+    /* chỉ sửa padding bằng 0 để không bị khoảng cách rộng */
+    padding: 0;
+    /* set chiều dài bằng auto để tự động thay đổi, nếu em muốn cho phần khung ul vừa kích thước của chữ thì sau này có thể sửa lại */
+    height: auto;
+    /* set absolute để lấy thẻ relative bên trên làm chuẩn rồi thay đổi theo kích cỡ*/
+    position: absolute;
+    /* Thêm chiều rộng bằng 100% thẻ cha, sau này thay đổi kích cỡ thẻ cha thì thẻ con sẽ thay đổi theo thẻ cha */
+    width: 100%;
 }
 #nav li:hover .subnav{
     display: block;
