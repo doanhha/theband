@@ -1,0 +1,3 @@
+//Anh thấy menu chưa ổn lắm, em fix thêm và hoàn thiện trong tối nay nhé. Em cố gắng hoàn thiện sớm để chuyển sang
+ngôn ngữ lập trình mới.
+Em nên xem lại phần menu con, phần đấy trình bày chưa đẹp mắt, em hoàn thiện khoá này rồi anh sẽ đưa 1 demo để em hoàn thiện.
